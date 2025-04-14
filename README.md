@@ -37,5 +37,9 @@ generate_answer_from_context(results =results,user_question =  user_question)
 user_question = "How to prevent starter damage?"  
 results = vector_query_graph(user_question, limit=3)  
 generate_answer_from_context(results =results,user_question =  user_question)  
-![how to prevent starter damage](https://github.com/user-attachments/assets/c60868f5-d905-4697-8e90-2ea26047d525)
+![how to prevent starter damage](https://github.com/user-attachments/assets/c60868f5-d905-4697-8e90-2ea26047d525)  
+
+FastAPI- swagger sample:
+![Screenshot 2025-04-14 123207](https://github.com/user-attachments/assets/5e5ec60d-c9ea-4cb6-a154-e0d93a8eaeae)
+
 
