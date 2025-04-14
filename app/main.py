@@ -6,7 +6,7 @@ app = FastAPI()
 
 class Query(BaseModel):
     question: str
-    limit: int = 5
+    limit: int = 3
 
 @app.post("/rag-answer")
 async def rag_answer(q: Query):
