@@ -27,15 +27,15 @@ Deployment        :https://render.com
 
 Screenshots from notebook for reference
 
-user_question = "How do I replace headlight assembly?"
-results = vector_query_graph(user_question, limit=3)
-generate_answer_from_context(results =results,user_question =  user_question)
+user_question = "How do I replace headlight assembly?"  
+results = vector_query_graph(user_question, limit=3)  
+generate_answer_from_context(results =results,user_question =  user_question)  
 
 ![how to change headlight](https://github.com/user-attachments/assets/5bc625b3-6f14-456f-b199-88fea437549d)
 
 
-user_question = "How to prevent starter damage?"
-results = vector_query_graph(user_question, limit=3)
-generate_answer_from_context(results =results,user_question =  user_question)
+user_question = "How to prevent starter damage?"  
+results = vector_query_graph(user_question, limit=3)  
+generate_answer_from_context(results =results,user_question =  user_question)  
 ![how to prevent starter damage](https://github.com/user-attachments/assets/c60868f5-d905-4697-8e90-2ea26047d525)
 
