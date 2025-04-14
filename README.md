@@ -9,7 +9,7 @@ An end-to-end GraphRAG system that combines XML-parsed content ( Related like st
 - Parses a complex **XML technical manual** (e.g. service instructions) - load_xml_into_neo4f._aura.py
 - Extracts relevant tags with their textual content
 - Pushes them into a **Neo4j Aura** graph database with relationships
-- Performs **semantic similarity search** using Sentence Transformers (`all-MiniLM-L6-v2`)
+- Performs **semantic similarity search** using Sentence Transformers (`all-MiniLM-L6-v2`) after quering with relationship  
 - Optionally generates **LLM-based natural language answers** using HuggingFace's `flan-t5-large` #can use base model
 - Provides a live, deployable **FastAPI server** to expose these as a public API
 
