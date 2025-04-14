@@ -36,7 +36,7 @@ Answer using detailed, full sentences:
 llm_pipeline = pipeline(
     "text2text-generation",
     model="google/flan-t5-large",
-    device_map="auto",
+    device_map= None,
     torch_dtype="auto"
 )
 
