@@ -21,6 +21,7 @@ Vector Embedding  `sentence-transformers` (`all-MiniLM-L6-v2`)
 Language Model    :HuggingFace `google/flan-t5-large`     #can use base model      
 API Framework     :FastAPI  
 Deployment        :https://render.com  
+API               : https://graphrag-api-smwh.onrender.com/docs  
 
 
 ---
