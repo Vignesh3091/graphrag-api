@@ -6,7 +6,7 @@ An end-to-end GraphRAG system that combines XML-parsed content ( Related like st
 
 ## What I have done:
 
-- Parses a complex **XML technical manual** (e.g. service instructions)
+- Parses a complex **XML technical manual** (e.g. service instructions) - load_xml_into_neo4f._aura.py
 - Extracts relevant tags with their textual content
 - Pushes them into a **Neo4j Aura** graph database with relationships
 - Performs **semantic similarity search** using Sentence Transformers (`all-MiniLM-L6-v2`)
@@ -16,11 +16,11 @@ An end-to-end GraphRAG system that combines XML-parsed content ( Related like st
 ---
 
 ## Tech Stack
-Graph DB          Neo4j Aura](https://neo4j.com/cloud/aura) 
-Vector Embedding  `sentence-transformers` (`all-MiniLM-L6-v2`) 
-Language Model    :HuggingFace `google/flan-t5-large`     #can use base model     
-API Framework     :FastAPI              
-Deployment        :https://render.com   
+Graph DB          Neo4j Aura](https://neo4j.com/cloud/aura)  
+Vector Embedding  `sentence-transformers` (`all-MiniLM-L6-v2`)  
+Language Model    :HuggingFace `google/flan-t5-large`     #can use base model      
+API Framework     :FastAPI  
+Deployment        :https://render.com  
 
 
 ---
