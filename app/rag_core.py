@@ -8,6 +8,8 @@ NEO4J_USER = os.getenv("NEO4J_USER")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
 NEO4J_DB = os.getenv("NEO4J_DB", "neo4j")
 
+print("NEO4J_URI:", repr(os.getenv("NEO4J_URI")))
+
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
