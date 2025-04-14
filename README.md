@@ -7,10 +7,10 @@ An end-to-end GraphRAG system designed to work efficiently within free-tier cons
 
 - Parses a complex **XML technical manual** (e.g. service instructions) - load_xml_into_neo4f._aura.py
 - Extracts relevant tags with their textual content
-- Pushes them into a **Neo4j Aura** graph database with relationships
+- Pushes them into a **Neo4j Aura** graph database with relationships with parrel processing for efficiency.  
 - Performs **semantic similarity search** using Sentence Transformers (`all-MiniLM-L6-v2`) after quering with relationship  
-- Optionally generates **LLM-based natural language answers** using HuggingFace's `flan-t5-large` #can use base model
-- Provides a live, deployable **FastAPI server** to expose these as a public API
+- Optionally generates **LLM-based natural language answers** using HuggingFace's `flan-t5-large` #can use base model  
+- Provides a live, deployable **FastAPI server** to expose these as a public API (might be slow)  
 
 ---
 
@@ -20,7 +20,7 @@ Vector Embedding  `sentence-transformers` (`all-MiniLM-L6-v2`)
 Language Model    :HuggingFace `google/flan-t5-large`     #can use base model      
 API Framework     :FastAPI  
 Deployment        :https://render.com  
-API               : https://graphrag-api-smwh.onrender.com/docs  
+API               :https://graphrag-api-smwh.onrender.com/docs  
 
 
 ---
