@@ -1,7 +1,6 @@
 # GraphRAG API
 
-An end-to-end GraphRAG system that combines XML-parsed content ( Related like steps, content, etc, simplified for free tier ) for the xml shared on john deere troubshooting, Neo4j graph storage, semantic vector search, and LLM-based response generation — all exposed via FastAPI and deployed on Render.
-
+An end-to-end GraphRAG system designed to work efficiently within free-tier constraints. It processes simplified XML content (e.g., steps and instructions from a John Deere troubleshooting manual), stores structured data in Neo4j as a graph, retrieves relevant information (graph based) and semantic vector search, and generates contextual answers using a LLM, all exposed through a FastAPI backend deployed on Render.
 ---
 
 ## What I have done:
