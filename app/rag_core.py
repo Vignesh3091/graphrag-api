@@ -10,6 +10,15 @@ NEO4J_DB = os.getenv("NEO4J_DB")
 
 print("NEO4J_URI:", repr(os.getenv("NEO4J_URI")))
 
+# === CONFIG ===
+NEO4J_URI = "neo4j+s://ddf3e3b8.databases.neo4j.io"
+NEO4J_USER = "neo4j"
+NEO4J_PASSWORD = "c5bFc-_D_rviELGy0J7I_LC2Ltbhgr1eJ-_fOODWOiA"
+NEO4J_DB = "neo4j"
+XML_FILE = r"D:\GraphRAG_Project\omdxe11337.xml"
+RELEVANT_TAGS = {"component", "procedure", "step"}
+BATCH_SIZE = 200
+
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
