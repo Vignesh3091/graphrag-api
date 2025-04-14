@@ -17,3 +17,11 @@ async def rag_answer(q: Query):
         "context_used": results,
         "answer": answer
     }
+
+@app.post("/rag-retrieve")
+async def rag_retrieve(q: Query):
+    results = vector_query_graph(q.question, limit=q.limit)
+    return {
+        "question": q.question,
+        "context_matches": results
+    }
