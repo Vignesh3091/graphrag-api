@@ -26,7 +26,7 @@ API               : https://graphrag-api-smwh.onrender.com/docs
 
 ---
 
-Screenshots from notebook for reference
+sample Screenshots from notebook for reference
 
 user_question = "How do I replace headlight assembly?"  
 results = vector_query_graph(user_question, limit=3)  
